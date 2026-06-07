@@ -1,0 +1,10 @@
+name : My First Pipeline
+
+on:
+  push:
+
+jobs:  
+  my-first-job:  
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "hey! pipeline working"
